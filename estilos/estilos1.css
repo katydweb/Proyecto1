@@ -1,0 +1,46 @@
+h1{ font-family: 'Trebuchet MS';
+    background-color: rgb(120, 121, 105);
+    color: white;
+    padding: 8px;
+    margin: 0px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+body{background-color: rgb(193,194,175);
+    margin:0%;
+
+
+.megusta{background-color: rgb(193,194,175);
+        font-family: Verdana;
+        padding: 10px;
+        }
+
+footer{background-color: rgb(230, 231, 215);
+       font-family: verdana;
+       padding: 10px;
+       text-align: center;
+       width: 100%;
+      }
+
+/*Estilo para menú*/
+nav{ background-color: rgb(230, 231, 215); 
+     padding: 10px;
+     font-family: Arial; 
+     text-align: right;
+     box-sizing: border-box;
+   }
+
+/*Estilo para hipervínculos de menú*/
+nav a{
+      background-color: rgb(150,151,135);
+      color: white; 
+      display: inline-flex;
+      padding: 10px 15px;
+      text-decoration: none;
+      justify-content: center;
+      border-radius: 4px;
+      margin:5px;
+     }
+
+nav a:hover{
+    background-color: rgb(120,121,105)}
