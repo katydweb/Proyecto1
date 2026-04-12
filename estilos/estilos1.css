@@ -32,15 +32,16 @@ footer{background-color: rgb(230, 231, 215);
       }
 
 /*Estilo para menú*/
-nav{background-color: #f1f2e1;
+nav{display: flex;
+    background-color: #f1f2e1;
      font-family: Arial; 
-     text-align: right;
      width: 100%;
+     justify-content: right;
    }
 
 /*Estilo para hipervínculos de menú*/
 nav a{
-      background-color: #fb994a;
+    background-color:#fb994a;
       color: white; 
       display: inline-flex;
       padding: 10px 15px;
@@ -50,8 +51,9 @@ nav a{
       margin:5px;
      }
 
-nav a:hover{
-    background-color: rgb(250, 186, 74)}
+nav a:hover{ 
+    background-color: rgb(255, 127, 80) 
+}
 
 .container_index{
     text-align: center;
@@ -63,25 +65,58 @@ nav a:hover{
 }
   
 
-.container_sobremi{display: flex;
-justify-content: center;}
+#container_sobremi{display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+text-align: center;}
 
 
-
-.container_sobremi img{
-
+#container_sobremi img{
 margin: 10px;
-border-radius: 10px;
+border-radius: 10px; ;
+
 }
 
-.container_intereses{display:flex;
-justify-content: center;}
 
+#container_intereses{
+    display: flex;
+    justify-content: center;
+}
 
-.container_intereses img{
+#container_english{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 20%;
+}
 
-width:20%;
-margin: 10px;}
+#container_english img{
+     width: 100%;
+  
+}
+
+#container_caminata{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 20%;
+}
+
+#container_caminata img{
+    width: 100%;
+}
+
+#container_series{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 20%;
+}
+
+#container_series img{
+    width: 100%;
+}
 
 .container_contacto{
 
